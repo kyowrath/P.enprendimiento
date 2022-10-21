@@ -1,0 +1,127 @@
+. {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    position: relative;
+    background-image:linear-gradient(to right, skyblue,pink) ;
+    
+}
+h2{
+    text-align: center;
+}
+/*inicio del menu*/
+#orden{
+    background-image:linear-gradient(to right, skyblue,pink) ;
+    height: 80px;
+}
+#orden ul{
+    margin: 0%;
+    padding: 0%;
+float: right;
+font-family: sans-serif;
+}
+#orden ul li{
+    float: left;
+    margin-right: 14px;
+    text-decoration: none;
+}
+#orden a{
+    text-decoration: none;
+}
+#orden ul li a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+/*fin de el inicio*/
+.inicio{
+    text-align: center;
+}
+.logo{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 172px;
+    object-position: center center;
+    position: relative;
+}
+header{
+text-align: center;
+margin-top: auto;
+}
+/* inicio de los productos */
+.catalogo{
+    text-align: center;
+
+}
+.productos{
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+.img{
+    margin-right: 39px;
+    border-radius: 50px;
+}
+.limites{
+    margin: auto;
+    padding: 0%;
+}
+#subtitulo{
+    text-align: center;
+ background-color: red
+}
+/* inicio del boton de wp*/
+.boton{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+/*pie de pagina y sus iconos*/
+.contenedor{
+    margin-top: 100px;
+    display: flex;
+}
+.abajo{
+    padding:1em 0;
+    text-align: center;
+    bottom: 0%;
+    border-radius: 20px;
+    width: 100%;
+    }
+    li{
+        list-style-type: none;
+    }
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 0%;
+    }
+    footer li{
+    margin: 0 1em;
+    }
+    footer svg{
+    width:3em;
+    height:3em;
+    }
+    /*fin de pie de pagina*/
