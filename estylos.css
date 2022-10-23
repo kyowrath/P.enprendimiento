@@ -56,10 +56,6 @@ text-align: center;
 margin-top: auto;
 }
 /* inicio de los productos */
-.catalogo{
-    text-align: center;
-
-}
 .productos{
     display: flex;
     margin: auto;
@@ -69,13 +65,12 @@ margin-top: auto;
     margin-right: 39px;
     border-radius: 50px;
 }
-.limites{
-    margin: auto;
-    padding: 0%;
+.productos .precio{
+margin: auto;
+margin-right: 3%;
 }
-#subtitulo{
+.productos p{
     text-align: center;
- background-color: red
 }
 /* inicio del boton de wp*/
 .boton{
