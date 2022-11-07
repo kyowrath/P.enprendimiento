@@ -8,20 +8,25 @@
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <title>Alice Wonderland</title>
 </head>
-<body>
+<body> 
+ <video autoplay loop muted onloadeddata="this.muted=true" src="videos/presenteacion.mp4" width="500px" height="500px"></video> 
+  </video>
   <!--menu de inicio-->
     <nav id="orden">
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Envios y Metodos de pago</a></li>
           <li><a href="#">Proximamente</a></li>
           <li><a href="#">Reclamos y Sugerencias</a></li>
         </ul>      
       </nav>
+      <div class="cursor">
+        <div class="cursor-interno"></div>
+      </div>
       <!--logo-->
-    <div class="inicio"><img class="logo" src="assets/alice b.jpeg" alt="imagen logo"></div>
-    <!--inicio del header-->
-    <header><h1>Alice Beauty</h1><h2>Bellesa Natural</h2></header>
+      <header>
+    <div class="inicio"><img class="logo" src="assets/nuevo logo.fw.png" alt="imagen logo"></div>
+  <h1>Alice Beauty</h1><h2>Bellesa Natural</h2>
+</header>
 <!--boto de wp-->
         <a href="https://api.whatsapp.com/send?phone=T..." class="boton" target="_blank">
           <i class="fa fa-whatsapp icono"></i></a>
@@ -92,5 +97,6 @@
                  </li>
             </ul>
         </footer>
+        <script src="app.js"></script>
 </body>
 </html>

@@ -12,10 +12,15 @@ body{
     flex-wrap: wrap;
     position: relative;
     background-image:linear-gradient(to right, skyblue,pink) ;
-    
+
 }
 h2{
     text-align: center;
+}
+video{
+ top: 0;
+ left: 31%;
+position:fixed;
 }
 /*inicio del menu*/
 #orden{
@@ -51,9 +56,9 @@ list-style: none;
     justify-content: center;
     position: relative;
     margin: 20px auto;
-    width: 250px;
+   /* width: 250px;*/
     height: 250px;
-    background: white;
+    /*background: white;*/
     border-radius: 75px;
 
 }
@@ -65,7 +70,7 @@ list-style: none;
     margin: 20px auto;
     width: 250px;
     height: 250px;
-    background: white;
+   /* background: white;*/
     border-radius: 75px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -84,14 +89,14 @@ list-style: none;
     position: absolute;
     width: 250px;
     height: 250px;
-    background: #ddce00;
+    background: #0085dd;
     border-radius: 75px;
     z-index: -1;
     animation: 1s clockwise infinite;
   }
   
   .inicio:hover:after {
-    background: #F3CE5E;
+    background: #f35ec6;
     animation: 2s counterclockwise infinite;
   }
   
@@ -176,6 +181,7 @@ list-style: none;
 header{
 text-align: center;
 margin-top: auto;
+
 }
 /* inicio de los productos */
 .productos{
@@ -194,6 +200,8 @@ margin-right: 2%;
 .productos p{
     text-align: center;
 }
+
+
 /* inicio del boton de wp*/
 .boton{
     position:fixed;
