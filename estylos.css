@@ -1,9 +1,9 @@
-. {
+*{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    vertical-align: baseline;
+    /*"vertical-align: baseline;*/
 }
 body{
     margin: 0;
@@ -17,10 +17,15 @@ body{
 h2{
     text-align: center;
 }
+.video{
+  width: 100vh;
+}
 video{
- top: 0;
- left: 31%;
-position:fixed;
+ /* top: 0;
+ left: 31%; */
+position:relative;
+width: 100%;
+background-color: black;
 }
 /*inicio del menu*/
 #orden{
@@ -47,9 +52,6 @@ list-style: none;
     padding-bottom: 5px;
 }
 /*fin de el inicio*/
-.inicio{
-    text-align: center;
-}
 .logo{
     display: flex;
     align-items: center;
@@ -193,9 +195,14 @@ margin-top: auto;
     margin-right: 39px;
     border-radius: 50px;
 }
+.precio{
+  background-color: #0900dd4d;
+}
 .productos .precio{
 margin: auto;
 margin-right: 2%;
+height: 65vh;
+border-radius: 4%;
 }
 .productos p{
     text-align: center;
@@ -246,13 +253,12 @@ margin-right: 2%;
         height: 60px;
         text-align: center;
         line-height: 63px;
-        background: #333;
+        background:#a310ff4a;
         border-radius: 50%;
         font-size: 30px;
         color: #666;
         transition: .5s;
       }
-      
       .iconos li a::before {
         content: '';
         position: absolute;
@@ -265,14 +271,29 @@ margin-right: 2%;
         transform: scale(.9);
         z-index: -1;
       }
-      
     .iconos li a:hover::before {
         transform: scale(1.1);
-        box-shadow: 0 0 15px #ffee10;
+        box-shadow: 0 0 15px #1078ff;
       }
-      
     .iconos li a:hover {
-        color: #ffee10;
-        box-shadow: 0 0 5px #ffee10;
-        text-shadow: 0 0 5px #ffee10;
+        color: #e310ff;
+        box-shadow: 0 0 5px #ff10f3;
+        text-shadow: 0 0 5px #eb10ff;
       }
+.derecha{
+  background-image: url(assets/quieness.jfif);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+}
+.izquierda{
+height: 100%;
+width: 50%;
+background-color:#25d3cf29;
+font-size: x-large;
+}
+#dividido {
+  display: flex;
+  height: 119vh;
+}
